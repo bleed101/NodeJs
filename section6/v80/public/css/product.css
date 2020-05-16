@@ -1,0 +1,43 @@
+ 
+        .p{
+            border-bottom: hidden;
+            border-top: hidden;
+            padding: 0 10px;
+            border-right: hidden;
+            border-left: hidden;
+            height: 2rem;
+            outline: none;
+            border-radius:5em;
+            box-shadow: grey 0.4em 0.5em 0.8em;
+        }
+        .b 
+        {
+            
+            height: 2rem;
+            outline: none;border-color: blueviolet;
+            border-radius:5em;
+            margin: 2rem;
+            background-color:white;
+            color: blueviolet;
+            box-shadow: grey 0.4em 0.5em 0.8em;
+        }
+        .b:hover,.b:active{
+            background-color:blueviolet;
+            color: white;
+            border-top: hidden;
+            border-bottom: hidden;
+            border-right: hidden;
+            border-left: hidden;
+        }
+        .product-form{
+            width: 16rem;
+            max-width: 90%;
+            margin: auto;
+        }
+        .form-control label,
+        .form-control input
+        {
+            width: 100%;
+            display: block;
+            margin: 0 2rem;
+        }
